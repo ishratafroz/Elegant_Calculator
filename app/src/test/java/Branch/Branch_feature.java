@@ -2,9 +2,17 @@ package Branch;
 
 public class Branch_feature {
     String name,id;
+ int cont;
+    public Branch_feature(String id,String name,int cont) {
+        this.id = id; this.name = name; this.cont=cont;
+    }
 
-    public Branch_feature(String id,String name) {
-        this.id = id; this.name = name;
+    public int getCont() {
+        return cont;
+    }
+
+    public void setCont(int cont) {
+        this.cont = cont;
     }
 
     public String getId() {
