@@ -13,6 +13,7 @@ public class Branch_feature {
 
     public void setInc(double inc) {
         this.inc = inc;
+
     }
 
     public String getId() {
